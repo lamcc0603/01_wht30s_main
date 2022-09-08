@@ -1,0 +1,17 @@
+.btn {
+  border: solid 0.3rem #020001;
+  background-color: #fff;
+  &-seemore {
+    text-align: center;
+    padding: 2.1rem 3.7rem;
+    display: inline-block;
+    height: 6rem;
+    & span {
+      font-size: 2.3rem;
+      height: 1.8rem;
+      line-height: 1.8rem;
+      font-family: "mon800";
+      text-transform: uppercase;
+    }
+  }
+}

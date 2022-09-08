@@ -1,0 +1,10 @@
+.wrapper {
+  padding: 14.2rem 0;
+}
+.button {
+  &__bottom {
+    margin-top: 12rem;
+    display: flex;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,41 @@
+.wrapper {
+  background: #111;
+  display: grid;
+  grid-template-columns: 50% 1fr;
+  height: 8rem;
+  color: #fff;
+  padding: 0 12rem 0 10rem;
+  font-family: "mon300";
+}
+
+.header {
+  &__logo {
+    display: flex;
+    align-items: center;
+    & img {
+      width: 22.6rem;
+      height: 2.6rem;
+      object-fit: contain;
+    }
+  }
+  &__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 2.14;
+    font-size: 1.4rem;
+  }
+}
+
+.menu {
+  &__item {
+    text-transform: uppercase;
+    &:nth-child(4) {
+      padding-left: 4.4rem;
+      border-left: 1px solid #ccc8c6;
+    }
+  }
+  &__item {
+    display: block;
+  }
+}
