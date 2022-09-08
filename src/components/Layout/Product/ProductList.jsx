@@ -235,7 +235,7 @@ function ProductList() {
         <GridItem colSpan={1} />
       </Grid>
       <div className={cx("button__bottom")}>
-        <SeeMore />
+        <SeeMore href={""} />
       </div>
     </div>
   );

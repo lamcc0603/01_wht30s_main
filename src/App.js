@@ -1,7 +1,7 @@
 import Banner from "./components/Layout/Banner/Banner";
 import BestProduct from "./components/Layout/BestProduct/BestProduct";
 import Header from "./components/Layout/Header/Header";
-import Product from "./components/Layout/Product/Product";
+
 import ProductList from "./components/Layout/Product/ProductList";
 import WhatHappenned from "./components/Layout/WhatHappened/WhatHappened";
 

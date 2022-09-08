@@ -8,7 +8,7 @@ function Product({ photo, name, price, like }) {
   return (
     <div className={cx("product")}>
       <div className={cx("product__img")}>
-        <img src={photo} alt="photo" />
+        <img src={photo} alt="" />
       </div>
       <div className={cx("product__info")}>
         <p className={cx("product__info__name")}>{name}</p>
