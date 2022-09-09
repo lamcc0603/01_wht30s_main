@@ -6,7 +6,7 @@ import newObj2 from "../../../assets/images/news-object-02.png";
 import newObj32 from "../../../assets/images/news-object-03-2.png";
 import newImg from "../../../assets/images/news-img-01.png";
 import { Grid, GridItem } from "@chakra-ui/react";
-import BrandIssue from "../BrandIssue/BrandIssue";
+
 import photo2 from "../../../assets/images/news-img-02.png";
 import photo3 from "../../../assets/images/news-img-03.png";
 import photo4 from "../../../assets/images/news-img-04.png";
