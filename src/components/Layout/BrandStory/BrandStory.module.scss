@@ -1,0 +1,110 @@
+.wrapper {
+  background: #0565bb;
+  padding: 15rem 0 17rem 0;
+}
+
+.brand {
+  &__title {
+    color: #fcd32a;
+    margin-bottom: 7.7rem;
+  }
+  &__story {
+    margin-top: 6.2rem;
+    margin-left: 4.4rem;
+    &__title {
+      font-size: 2.5rem;
+      font-family: "mon800";
+      line-height: 2rem;
+      text-transform: uppercase;
+      margin-bottom: 4rem;
+      color: #222;
+    }
+    &__sup {
+      line-height: 1.88;
+      font-size: 1.6rem;
+      color: #222;
+      font-family: "nato";
+      text-align: left;
+      padding-right: 6.8rem;
+      display: block;
+      margin-bottom: 4.7rem;
+    }
+  }
+}
+
+.collaboration {
+  background: url("../../../assets/images/window.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 44.1rem;
+  z-index: 2;
+  overflow: hidden;
+  position: relative;
+}
+
+.obj {
+  &__list {
+    &__left {
+      position: relative;
+    }
+    &__right {
+      position: relative;
+    }
+  }
+  &__1 {
+    position: absolute;
+    bottom: 90%;
+    left: 54%;
+    //     width: 18.3rem;
+    //     height: 20.8rem;
+    width: 63%;
+    z-index: 1;
+  }
+  &__2 {
+  }
+  &__3 {
+    position: absolute;
+    top: 24%;
+    left: 57%;
+  }
+  &__4 {
+    position: absolute;
+    left: 25%;
+    bottom: 33%;
+  }
+  &__5 {
+    position: absolute;
+    right: 6%;
+    top: 49%;
+    transform: scale(1.26);
+  }
+  &__6 {
+  }
+  &__7 {
+    z-index: 0;
+  }
+  &__stab {
+    &__left {
+      position: absolute;
+      display: flex;
+      align-items: flex-end;
+      top: 10%;
+      &::before {
+        position: absolute;
+        content: "";
+        width: 20rem;
+        height: 0.3rem;
+        background: #222;
+        top: 95%;
+        left: 65%;
+      }
+    }
+    &__top {
+      position: absolute;
+      top: -63%;
+      left: -35%;
+      width: 50%;
+    }
+  }
+}

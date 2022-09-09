@@ -1,0 +1,86 @@
+.wrapper {
+  padding: 16rem 0 14rem 0;
+  background: #fccb05;
+  position: relative;
+}
+.happened {
+  &__grid {
+    border: solid 0.3rem #111;
+    border-left: none;
+    border-right: none;
+    overflow: hidden;
+  }
+  &__issue {
+    color: #110e03;
+    margin-bottom: 5.5rem;
+  }
+  &__item1 {
+    background: #ff5500;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 8.7rem;
+
+    & p {
+      padding: 0 9.4rem;
+      line-height: 1.04;
+      margin-bottom: 6rem;
+      font-size: 5.5rem;
+      font-family: "mon800";
+      text-transform: uppercase;
+      color: #110e03;
+      width: fit-content;
+    }
+    & img {
+      width: 38%;
+    }
+  }
+  &__item {
+    background: #110e03;
+    & .brand {
+      &__tag {
+        overflow: hidden;
+
+        & p {
+          color: #fff;
+          font-size: 3rem;
+          font-family: "mon800";
+          line-height: 2.2rem;
+          text-transform: uppercase;
+          text-align: center;
+        }
+        padding: 2.7rem 0;
+      }
+
+      &__img {
+        & img {
+          height: 40.5rem;
+        }
+      }
+    }
+    &:nth-child(4) {
+      background: #ff5500 !important;
+    }
+  }
+}
+.button__bottom {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 13rem;
+  & a {
+    background: transparent;
+  }
+}
+
+.newobj {
+  position: absolute;
+  right: 3%;
+  top: 8%;
+  &__32 {
+    width: 80%;
+    margin-bottom: 2.5rem;
+  }
+  &__2 {
+  }
+}

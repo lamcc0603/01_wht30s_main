@@ -1,5 +1,7 @@
 import Banner from "./components/Layout/Banner/Banner";
 import BestProduct from "./components/Layout/BestProduct/BestProduct";
+import BrandStory from "./components/Layout/BrandStory/BrandStory";
+import HappenedIssue from "./components/Layout/HappenedIssue/HappenedIssue";
 import Header from "./components/Layout/Header/Header";
 
 import ProductList from "./components/Layout/Product/ProductList";
@@ -13,6 +15,8 @@ function App() {
       <WhatHappenned />
       <BestProduct />
       <ProductList />
+      <BrandStory />
+      <HappenedIssue />
     </div>
   );
 }
