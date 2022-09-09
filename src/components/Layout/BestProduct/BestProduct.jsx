@@ -9,7 +9,6 @@ import production1 from "../../../assets/images/producticon-01.png";
 import production2 from "../../../assets/images/producticon-02.png";
 import production3 from "../../../assets/images/producticon-03.png";
 import goIcon from "../../../assets/images/go-icon.png";
-import Title from "../Title/Title";
 const cx = classNames.bind(styles);
 
 function BestProduct() {
