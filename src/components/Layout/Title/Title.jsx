@@ -7,7 +7,7 @@ function Title({ title, sup, lang = false }) {
   return (
     <div className={cx("brand__title")}>
       <p className={cx("title")}>{title}</p>
-      <span className={cx(lang == "" ? "supKR" : "supEN")}>{sup}</span>
+      <span className={cx(lang === "" ? "supKR" : "supEN")}>{sup}</span>
     </div>
   );
 }
