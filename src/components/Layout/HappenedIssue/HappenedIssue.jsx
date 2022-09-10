@@ -4,6 +4,10 @@ import Title from "../Title/Title";
 import SeeMore from "../Button/SeeMore";
 import newObj2 from "../../../assets/images/news-object-02.png";
 import newObj32 from "../../../assets/images/news-object-03-2.png";
+import newObj3 from "../../../assets/images/news-object-03.png";
+import newObj4 from "../../../assets/images/news-object-04.png";
+import newObj5 from "../../../assets/images/news-object-05.png";
+
 import newImg from "../../../assets/images/news-img-01.png";
 import { Grid, GridItem } from "@chakra-ui/react";
 
@@ -38,10 +42,20 @@ function HappenedIssue() {
         <GridItem className={cx("happened__item1")}>
           <p>whpn issue</p>
           <img src={newImg} alt="newimg" />
+          <img
+            className={cx("happened__item1__obj")}
+            src={newObj3}
+            alt="newimg"
+          />
         </GridItem>
-        <GridItem className={cx("happened__item")}>
+        <GridItem className={cx("happened__item", "brand__tag__obj4")}>
           <div className={cx("brand__tag")}>
             <p>b brand</p>
+            <img
+              className={cx("brand__img__obj4")}
+              src={newObj4}
+              alt="newimg"
+            />
           </div>
           <div className={cx("brand__img")}>
             <img src={photo2} alt="" />
@@ -58,8 +72,13 @@ function HappenedIssue() {
         <GridItem className={cx("happened__item")}>
           <div className={cx("brand__tag")}>
             <p>d brand</p>
+            <img
+              className={cx("brand__img__obj5")}
+              src={newObj5}
+              alt="newimg"
+            />
           </div>
-          <div className={cx("brand__img")}>
+          <div className={cx("brand__img", "brand__tag__obj5")}>
             <img src={photo4} alt="" />
           </div>
         </GridItem>

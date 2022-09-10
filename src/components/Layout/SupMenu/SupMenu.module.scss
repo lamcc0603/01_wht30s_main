@@ -1,0 +1,11 @@
+.menu {
+  &__item {
+    font-size: 1.4rem;
+    font-family: "mon600";
+    &__supmenu {
+      font-size: 1.4rem;
+      font-family: "nato";
+      color: #333;
+    }
+  }
+}

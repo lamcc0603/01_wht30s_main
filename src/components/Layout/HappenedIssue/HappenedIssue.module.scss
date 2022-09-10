@@ -5,22 +5,22 @@
 }
 .happened {
   &__grid {
-    border: solid 0.3rem #111;
-    border-left: none;
-    border-right: none;
-    overflow: hidden;
   }
   &__issue {
     color: #110e03;
     margin-bottom: 5.5rem;
   }
   &__item1 {
+    position: relative;
     background: #ff5500;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     padding-top: 8.7rem;
+    overflow: visible;
+    border-bottom: solid 0.3rem #111;
+    border-top: solid 0.3rem #111;
 
     & p {
       padding: 0 9.4rem;
@@ -35,13 +35,19 @@
     & img {
       width: 38%;
     }
+    &__obj {
+      position: absolute;
+      bottom: -15%;
+      right: -5%;
+      z-index: 2;
+    }
   }
   &__item {
     background: #110e03;
+    border-bottom: solid 0.3rem #111;
+    border-top: solid 0.3rem #111;
     & .brand {
       &__tag {
-        overflow: hidden;
-
         & p {
           color: #fff;
           font-size: 3rem;
@@ -56,6 +62,19 @@
       &__img {
         & img {
           height: 40.5rem;
+        }
+        &__obj4 {
+          position: absolute;
+          width: 30%;
+          top: -3%;
+          left: 5%;
+        }
+        &__obj5 {
+          position: absolute;
+          width: 7%;
+          z-index: 2;
+          bottom: 8%;
+          right: 18%;
         }
       }
     }
@@ -82,5 +101,16 @@
     margin-bottom: 2.5rem;
   }
   &__2 {
+  }
+}
+
+.brand {
+  &__tag {
+    &__obj4 {
+      position: relative;
+    }
+    &__obj5 {
+      position: relative;
+    }
   }
 }

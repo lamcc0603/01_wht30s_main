@@ -14,11 +14,20 @@
     }
     & span {
       margin-top: 4rem;
-      width: 68.2rem;
       line-height: 1.41;
-      font-size: 1.6rem;
-      font-family: "nato";
       text-align: center;
     }
+  }
+}
+
+.sup {
+  &KR {
+    font-family: "nato";
+    width: 68.2rem;
+    font-size: 1.6rem;
+  }
+  &EN {
+    font-family: "mon300";
+    font-size: 1.9rem;
   }
 }
