@@ -4,7 +4,6 @@ import logo from "../icons";
 import NavLink from "./NavLink";
 
 import {
-  Button,
   IconButton,
   Menu,
   MenuButton,
