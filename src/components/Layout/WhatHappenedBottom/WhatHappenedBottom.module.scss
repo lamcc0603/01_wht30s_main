@@ -85,7 +85,7 @@
     padding-bottom: 15rem;
     padding: 0 2rem;
     &__grid {
-      display: flex;
+      display: flex !important;
       flex-direction: column;
     }
   }
@@ -93,16 +93,16 @@
   .whathappened {
     padding: 6rem 0 0 0;
     &__obj__2 {
-      display: none;
+      display: none !important;
     }
 
     &__grid {
-      display: flex;
+      display: flex !important;
       flex-direction: column;
       margin-bottom: 7.2rem;
       &__left,
       &__right {
-        display: none;
+        display: none !important;
       }
     }
   }

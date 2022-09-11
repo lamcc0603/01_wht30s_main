@@ -9,10 +9,20 @@
   }
 }
 @media screen and (max-width: 768px) {
+  .wrapper {
+    padding: 7rem 2rem;
+  }
   .productlist {
+    display: flex !important;
+    flex-direction: column;
     &__grid {
-      display: flex;
+      display: flex !important;
       flex-direction: column;
+    }
+  }
+  .button {
+    &__bottom {
+      margin-top: 4rem;
     }
   }
 }

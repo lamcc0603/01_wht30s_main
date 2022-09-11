@@ -120,21 +120,20 @@
     padding: 5rem 2rem;
   }
   .newobj {
-    display: none;
+    display: none !important;
   }
   .happened {
     &__grid {
-      display: flex;
+      display: flex !important;
       flex-direction: column;
       gap: 5rem;
-      height: 100%;
     }
     &__item1 {
       padding-bottom: 8.7rem;
       border: solid 0.3rem #111;
 
       &__obj {
-        display: none;
+        display: none !important;
       }
     }
     &__item {
@@ -147,8 +146,9 @@
       }
     }
     &__img {
-      &__obj4 {
-        display: none;
+      &__obj4,
+      &__obj5 {
+        display: none !important;
       }
     }
   }

@@ -34,11 +34,7 @@ function HappenedIssue() {
       <div className={cx("button__bottom")}>
         <SeeMore href={""} />
       </div>
-      <Grid
-        className={cx("happened__grid")}
-        templateColumns="repeat(5,20%)"
-        h="48rem"
-      >
+      <Grid className={cx("happened__grid")} templateColumns="repeat(5,20%)">
         <GridItem className={cx("happened__item1")}>
           <p>whpn issue</p>
           <img src={newImg} alt="newimg" />

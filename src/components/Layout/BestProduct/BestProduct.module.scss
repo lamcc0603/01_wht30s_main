@@ -6,6 +6,10 @@
   height: 107.3rem;
   display: flex;
   flex-direction: column;
+  &__grid {
+    grid-template-columns: repeat(12, 1fr);
+    gap: 3rem;
+  }
 }
 
 .bestproduct {
@@ -68,26 +72,37 @@
   .wrapper {
     height: 100%;
     padding-bottom: 7rem;
-    &__col:nth-child(1),
-    &__col:nth-child(3) {
-    }
-    &__col:nth-child(2) {
-    }
 
     &__grid {
-      display: flex;
+      display: flex !important;
     }
   }
 
   .bestproduct {
     padding-top: 3rem;
     margin-bottom: 3rem;
+
+    &__grid {
+      display: flex !important;
+    }
+
+    &__col:nth-child(1),
+    &__col:nth-child(3) {
+      display: none;
+    }
+    &__col:nth-child(2) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 100%;
+    }
+
     &__text {
       font-size: 1.4rem;
       margin-bottom: 5rem;
     }
     &__box {
-      display: flex;
+      display: flex !important;
       flex-direction: column;
       gap: 5rem;
     }

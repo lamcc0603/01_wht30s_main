@@ -31,15 +31,13 @@ function BestProduct() {
   ];
   return (
     <div className={cx("wrapper")}>
-      <Grid
-        h="100%"
-        className={cx("wrapper__grid")}
-        templateColumns="repeat(12, 1fr)"
-        gap={"30px"}
-      >
+      <Grid className={cx("wrapper__grid")}>
         <GridItem colSpan={1} bg="" className={cx("wrapper__col")} />
         <GridItem colSpan={10} bg="" className={cx("wrapper__col")}>
-          <Grid templateColumns="repeat(10, 1fr)">
+          <Grid
+            templateColumns="repeat(10, 1fr)"
+            className={cx("bestproduct__grid")}
+          >
             <GridItem colSpan={3} className={cx("bestproduct__col")}></GridItem>
             <GridItem
               h={"36.2rem"}
