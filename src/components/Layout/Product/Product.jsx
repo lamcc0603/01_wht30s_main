@@ -11,7 +11,9 @@ function Product({ photo, name, price, like }) {
         <img src={photo} alt="" />
       </div>
       <div className={cx("product__info")}>
-        <p className={cx("product__info__name")}>{name}</p>
+        <div className={cx("product__info__name")}>
+          <p>{name}</p>
+        </div>
         <div className={cx("product__info__sup")}>
           <span className={cx("product__price")}>{price} won</span>
           <span className={cx("product__like")}>

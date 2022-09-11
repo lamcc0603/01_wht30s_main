@@ -78,3 +78,32 @@
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    text-align: center;
+    padding-bottom: 15rem;
+    padding: 0 2rem;
+    &__grid {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  .whathappened {
+    padding: 6rem 0 0 0;
+    &__obj__2 {
+      display: none;
+    }
+
+    &__grid {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 7.2rem;
+      &__left,
+      &__right {
+        display: none;
+      }
+    }
+  }
+}

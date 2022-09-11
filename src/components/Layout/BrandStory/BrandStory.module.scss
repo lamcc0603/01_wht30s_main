@@ -9,8 +9,8 @@
     margin-bottom: 7.7rem;
   }
   &__story {
-    margin-top: 6.2rem;
-    margin-left: 4.4rem;
+    padding-top: 6.2rem;
+    padding-left: 4.4rem;
     &__title {
       font-size: 2.5rem;
       font-family: "mon800";
@@ -36,7 +36,6 @@
   background: url("../../../assets/images/window.png");
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center;
   height: 44.1rem;
   z-index: 2;
   overflow: hidden;
@@ -106,5 +105,11 @@
       left: -35%;
       width: 50%;
     }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    display: none;
   }
 }

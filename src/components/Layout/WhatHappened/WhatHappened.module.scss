@@ -3,7 +3,7 @@
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center top;
-  height: 57rem;
+  padding: 20.5rem 0;
   display: flex;
   align-items: center;
 }
@@ -27,5 +27,28 @@
   &__text {
     font-size: 2rem;
     line-height: 1.75;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    padding: 6rem 2rem;
+  }
+  .banner {
+    &__sup {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      padding-left: 0;
+      color: #fff;
+    }
+    &__title {
+      font-size: 2rem;
+      line-height: 1;
+    }
+    &__text {
+      font-size: 1.4rem;
+      line-height: 1.75;
+    }
   }
 }

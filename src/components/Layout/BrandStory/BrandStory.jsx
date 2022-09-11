@@ -24,7 +24,12 @@ function BrandStory() {
           걸음을 내딛어보세요. 비디오를 단 몇 분 만에 제작해보세요."
         />
       </div>
-      <Grid templateColumns="repeat(12, 1fr)" gap={"30px"} h="100%">
+      <Grid
+        templateColumns="repeat(12, 1fr)"
+        gap={"30px"}
+        h="100%"
+        className={cx("wrapper__grid")}
+      >
         <GridItem colSpan={2} className={cx("obj__list__left")}>
           <img src={obj1} alt="obj1" className={cx("obj__1")} />
           <div className={cx("obj__stab__left")}>
@@ -40,7 +45,6 @@ function BrandStory() {
             <GridItem colSpan={1}></GridItem>
             <GridItem className={cx("brand__story")} colSpan={1}>
               <p className={cx("brand__story__title")}>
-                {" "}
                 What Happened’s Brand story
               </p>
               <span className={cx("brand__story__sup")}>

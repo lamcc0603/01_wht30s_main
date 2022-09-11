@@ -219,7 +219,11 @@ function ProductList() {
       >
         <GridItem colSpan={1} />
         <GridItem colSpan={10}>
-          <Grid templateColumns="repeat(10, 1fr)" gap={"2rem"}>
+          <Grid
+            className={cx("productlist__grid")}
+            templateColumns="repeat(10, 1fr)"
+            gap={"2rem"}
+          >
             {productList.map((item) => (
               <GridItem colSpan={2} key={item.id}>
                 <Product

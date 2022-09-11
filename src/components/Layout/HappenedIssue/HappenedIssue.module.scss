@@ -114,3 +114,45 @@
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    padding: 5rem 2rem;
+  }
+  .newobj {
+    display: none;
+  }
+  .happened {
+    &__grid {
+      display: flex;
+      flex-direction: column;
+      gap: 5rem;
+      height: 100%;
+    }
+    &__item1 {
+      padding-bottom: 8.7rem;
+      border: solid 0.3rem #111;
+
+      &__obj {
+        display: none;
+      }
+    }
+    &__item {
+      border: solid 0.3rem #111;
+    }
+  }
+  .brand {
+    &__tag {
+      &__obj {
+      }
+    }
+    &__img {
+      &__obj4 {
+        display: none;
+      }
+    }
+  }
+  .button__bottom {
+    margin-bottom: 7rem;
+  }
+}

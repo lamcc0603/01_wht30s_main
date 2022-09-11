@@ -63,3 +63,54 @@
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    height: 100%;
+    padding-bottom: 7rem;
+    &__col:nth-child(1),
+    &__col:nth-child(3) {
+    }
+    &__col:nth-child(2) {
+    }
+
+    &__grid {
+      display: flex;
+    }
+  }
+
+  .bestproduct {
+    padding-top: 3rem;
+    margin-bottom: 3rem;
+    &__text {
+      font-size: 1.4rem;
+      margin-bottom: 5rem;
+    }
+    &__box {
+      display: flex;
+      flex-direction: column;
+      gap: 5rem;
+    }
+    &__production {
+      width: 7rem;
+      height: 7rem;
+      left: -6.5%;
+    }
+    &__col {
+      display: flex;
+    }
+    &__title {
+      font-size: 2rem;
+      margin-bottom: 3rem;
+    }
+
+    &__optimized {
+      width: 90%;
+      left: 5%;
+      &__text {
+        font-size: 1.4rem;
+        margin-right: 2rem;
+      }
+    }
+  }
+}

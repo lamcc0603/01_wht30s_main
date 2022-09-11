@@ -8,3 +8,11 @@
     justify-content: center;
   }
 }
+@media screen and (max-width: 768px) {
+  .productlist {
+    &__grid {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}

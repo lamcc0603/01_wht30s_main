@@ -9,7 +9,7 @@
       letter-spacing: 0.45rem;
       text-align: center;
       text-transform: uppercase;
-      line-height: 3.4rem;
+      line-height: 10rem;
       height: 3.4rem;
     }
     & span {
@@ -29,5 +29,30 @@
   &EN {
     font-family: "mon300";
     font-size: 1.9rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .brand {
+    &__title {
+      & p {
+        font-size: 2rem;
+
+        line-height: 1;
+      }
+      & span {
+        margin-top: 2rem;
+        line-height: 1;
+        text-align: center;
+      }
+    }
+  }
+
+  .sup {
+    &KR,
+    &EN {
+      width: 100%;
+      font-size: 1.4rem;
+    }
   }
 }

@@ -19,7 +19,11 @@ const cx = classNames.bind(styles);
 function WhatHappenedBottom() {
   return (
     <div className={cx("wrapper")}>
-      <Grid templateColumns="repeat(12,1fr)" gap={"3rem"}>
+      <Grid
+        templateColumns="repeat(12,1fr)"
+        gap={"3rem"}
+        className={cx("wrapper__grid")}
+      >
         <GridItem colSpan={2} className={cx("whathappened__grid__left")}>
           <img className={cx("whathappened__obj__1")} src={videoObj1} alt="" />
           <img className={cx("whathappened__obj__3")} src={videoObj3} alt="" />
@@ -27,10 +31,13 @@ function WhatHappenedBottom() {
           <img className={cx("whathappened__obj__5")} src={videoObj5} alt="" />
         </GridItem>
         <GridItem colSpan={8}>
-          <Grid templateColumns="repeat(8,1fr)">
+          <Grid
+            templateColumns="repeat(8,1fr)"
+            className={cx("whathappened__grid")}
+          >
             <GridItem colSpan={2} />
             <GridItem colSpan={4}>
-              <div className={cx("whathappened__grid")}>
+              <div>
                 <div className={cx("whathappened")}>
                   <Title
                     lang="true"

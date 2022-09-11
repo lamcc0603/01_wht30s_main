@@ -31,13 +31,21 @@ function BestProduct() {
   ];
   return (
     <div className={cx("wrapper")}>
-      {" "}
-      <Grid h="100%" templateColumns="repeat(12, 1fr)" gap={"30px"}>
-        <GridItem colSpan={1} bg="" />
-        <GridItem colSpan={10} bg="">
+      <Grid
+        h="100%"
+        className={cx("wrapper__grid")}
+        templateColumns="repeat(12, 1fr)"
+        gap={"30px"}
+      >
+        <GridItem colSpan={1} bg="" className={cx("wrapper__col")} />
+        <GridItem colSpan={10} bg="" className={cx("wrapper__col")}>
           <Grid templateColumns="repeat(10, 1fr)">
-            <GridItem colSpan={3}></GridItem>
-            <GridItem h={"36.2rem"} colSpan={4}>
+            <GridItem colSpan={3} className={cx("bestproduct__col")}></GridItem>
+            <GridItem
+              h={"36.2rem"}
+              colSpan={4}
+              className={cx("bestproduct__col")}
+            >
               <div className={cx("bestproduct")}>
                 <p className={cx("bestproduct__title")}>best product</p>
                 <span className={cx("bestproduct__text")}>
@@ -47,10 +55,10 @@ function BestProduct() {
                 </span>
               </div>
             </GridItem>
-            <GridItem colSpan={3}></GridItem>
+            <GridItem colSpan={3} className={cx("bestproduct__col")}></GridItem>
           </Grid>
           <Grid
-            templateColumns="repeat(3, 52.3rem)"
+            templateColumns="repeat(3, 33%)"
             className={cx("bestproduct__box")}
           >
             {bestProduct.map((item) => (
@@ -82,7 +90,7 @@ function BestProduct() {
           </Grid>
         </GridItem>
 
-        <GridItem colSpan={1} bg="" />
+        <GridItem colSpan={1} bg="" className={cx("wrapper__col")} />
       </Grid>
     </div>
   );
